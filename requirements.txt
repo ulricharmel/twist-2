@@ -1,0 +1,7 @@
+dash
+numpy
+pandas
+scipy
+gunicorn
+odfpy
+xgboost

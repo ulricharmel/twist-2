@@ -28,3 +28,6 @@ docs/_build/
 
 #database journal
 *.journal
+
+#jupyter output
+.ipynb_checkpoints/
