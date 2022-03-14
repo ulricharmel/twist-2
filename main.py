@@ -4,8 +4,11 @@ from pyexpat import features
 import numpy as np
 import datetime as dt
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
+# import dash_core_components as dcc
+# import dash_html_components as html
+
+from dash import dcc
+from dash import html
 
 from dash.exceptions import PreventUpdate
 from dash.dependencies import Input, Output, State
