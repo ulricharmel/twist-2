@@ -1,7 +1,7 @@
 import xgboost as xgb
 import pathlib
 
-filename = pathlib.Path(__file__).resolve().parent.joinpath("model.json").resolve()
+filename = "model/model.json" # pathlib.Path(__file__).resolve().parent.joinpath("model.json").resolve()
 
 def load_model():
     model = xgb.XGBRegressor()
