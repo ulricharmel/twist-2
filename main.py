@@ -168,3 +168,4 @@ def gen_plot(interval):
 # Run local server
 if __name__ == '__main__':
     app.run_server(debug=True)
+#     app.run_server(mode='inline')

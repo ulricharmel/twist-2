@@ -4,4 +4,4 @@ pandas
 scipy
 gunicorn
 odfpy
-xgboost
+xgboost==1.4.2
